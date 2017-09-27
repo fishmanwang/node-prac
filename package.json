@@ -19,6 +19,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
+    "ed25519": "^0.0.4",
     "express": "^4.15.4"
   }
 }
