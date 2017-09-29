@@ -13,7 +13,6 @@ console.log(keypair);
 
 var publicKey = keypair.publicKey.toString('hex');
 console.log('publicKey: ' + publicKey);
-
 var publicKeyHash = crypto.createHash('sha256').update(publicKey, 'hex').digest();
 console.log('publicKeyHash: ' + publicKeyHash);
 
